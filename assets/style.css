@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@0;1&display=swap');
+
+body {
+    font-family:'Open sans', sans-serif;
+    text-align: center;
+    background: linear-gradient(to top, #ebe7e7, #000000);
+    color: white;
+  }
+
+  .img {
+    margin-bottom: 300px;
+  }
+  
+  #app {
+    max-width: 800px;
+    margin:  auto;
+  }
+  
+  .tab {
+    cursor: pointer;
+    padding: 10px;
+    background-color: rgb(50, 44, 54);
+    border: 1px solid #ccc;
+    display: inline-block;
+  }
+  
+  .tab:hover {
+    background-color: #000000;
+  }
+  
+  .content {
+    display: none;
+    
+  }
+  
+  #agentes, #ocorrencias, #observacoes {
+    display: block;
+  }
+
+
+  
+
+  
